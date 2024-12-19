@@ -1,0 +1,42 @@
+.container {
+  background-color: rgb(24, 153, 239);
+  height:50px;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+
+.wrapper{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+ 
+  input{
+
+    border:none;
+    width:200px;
+    border-radius: 3px;
+    padding: 12px 7px;
+    font-size: 15px;
+    margin-right: 5px;
+  }
+  button{
+    height:40px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  span{
+    font-size: 20px;
+  }
+  .icons{
+    display: flex;
+    font-size: 30px;
+    gap:10px;
+  }
+
+
+}
+}

@@ -1,0 +1,62 @@
+.slider{
+  height:66vh;
+  width:96vw;
+  overflow: hidden;
+ margin-bottom: 30px;
+
+  .container{
+  padding-top:20px;
+    height: 95%;
+    width:480vw;
+    display:flex; 
+    width:fit-content;
+    transition: all 1s ease;
+  }
+
+  img{
+    width:100vw ;
+    height:100%;
+    object-fit:contain;
+    
+  }
+}
+
+.btn-container{
+  position: absolute;
+  top:40%;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ justify-content: space-between;
+ 
+
+
+  button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:60px;
+    height:55px;
+    border: 1px solid grey;
+    background-color: transparent;
+    font-size: 50px;
+    color:black;
+    cursor: pointer;
+
+   &:hover{
+    svg{
+      width:30px;
+      color: black;
+    }
+   }
+
+  }
+
+  svg{
+
+    width:25px;
+    color: #7c7c7c;
+  }
+  
+}

@@ -1,0 +1,56 @@
+img{
+  width:150px;
+ 
+}
+.payment_logo{
+  width:500px;
+  height:100px;
+}
+
+.Footer{
+
+  padding:150px 150px;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  flex:1;
+  gap:30px;
+
+  .item{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width:600px;
+    gap:8px;
+
+    h1{
+      margin:0;
+      font-size: 20px;
+      color: dark;
+    }
+
+    span{
+      color:grey;
+    }
+  }
+}
+
+
+.bottom{
+
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+
+  .item{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  }
+}
+
+
+

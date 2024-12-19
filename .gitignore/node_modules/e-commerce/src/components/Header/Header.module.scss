@@ -1,0 +1,57 @@
+.Header{
+  display:flex;
+  justify-content: space-between;
+  padding:10px 20px ;
+  align-items: center;
+
+}
+
+.left{
+  display:flex;
+
+  gap:15px;
+}
+
+.logo{
+  font-size: 30px;
+  font-weight:600;
+  letter-spacing: 4px;
+  
+  
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  
+}
+
+.right-item{
+  display:flex;
+ 
+  gap:15px;
+  
+}
+.link{
+  color: inherit;
+  text-decoration: none;
+}
+
+.Cart{
+  position: relative;
+  cursor:pointer;
+}
+
+.cart-value{
+  position:absolute;
+  right:-10px;
+  top:-10px;
+  color: aliceblue;
+  background-color:dodgerblue;
+  border-radius: 50px;
+  width:18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}

@@ -1,0 +1,58 @@
+.card {
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+
+
+
+
+.card-img-top {
+ /* Ensures the image fits the card width */
+  height: 250px; /* Sets a fixed height for all images */
+  object-fit: contain; /* Crops the image to maintain aspect ratio */
+}
+
+.card-body {
+  padding: 3px;
+
+ 
+}
+
+
+.card-text {
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
+
+
+
+.NewSeason {
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  top:1px;
+  left:1px;
+  font-weight: 10px;font-size: 15px;
+  padding: 0 3px;
+  color:rgb(57, 174, 69);
+  background-color: rgb(238, 244, 244);
+
+}
+
+.discount {
+ text-decoration: line-through;
+ float: left;
+
+ float: left;
+ padding:5px 0 10px 20px;
+}
+.price{
+  float: left;
+  padding:5px 0 10px 20px;
+}
+
+}
